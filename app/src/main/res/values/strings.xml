@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ordinario</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">AIzaSyB6Qd9VUAdzNwacb6bTmYxIivos0qBLLCg</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps3">MapsActivity3</string>
+
+</resources>

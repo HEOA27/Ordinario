@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Casa"
+        android:contentDescription="Click en la imagen"
+
+        android:src="@drawable/coppel"
+
+
+        android:id="@+id/ubicarme"
+       />
+
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Ubicarme"
+        android:contentDescription="Click en la imagen"
+
+        android:src="@drawable/bodega"
+        android:id="@+id/ubicarme2"
+        />
+
+    <ImageButton
+        android:id="@+id/ubicarme3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ubicarme"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-313dp"
+        android:layout_marginRight="200dp"
+        android:src="@drawable/dentista"
+        android:contentDescription="Click en la imagen"
+        android:text="Ubicarme" />
+
+    <ImageButton
+        android:id="@+id/ubicarme4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ubicarme"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-187dp"
+        android:contentDescription="Click en la imagen"
+        android:layout_marginRight="200dp"
+        android:src="@drawable/unistmo"
+
+        android:text="Ubicarme" />
+</LinearLayout>
